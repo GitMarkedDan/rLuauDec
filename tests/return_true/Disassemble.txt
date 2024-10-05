@@ -1,0 +1,4 @@
+Function 0 (??):
+LOADB R0 1
+RETURN R0 1
+

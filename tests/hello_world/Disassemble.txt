@@ -1,0 +1,6 @@
+Function 0 (??):
+GETIMPORT R0 1
+LOADK R1 K2
+CALL R0 1 0
+RETURN R0 0
+
