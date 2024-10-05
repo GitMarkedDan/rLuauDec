@@ -1,6 +1,5 @@
 # rLuauDec
 A Luau decompiler written entirely in Rust. Not all opcodes are supported right now.
-
 This project is split into 3 different sections:
 1. Reading opcodes
 2. Decompilation
