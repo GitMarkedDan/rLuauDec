@@ -175,7 +175,6 @@ impl LuauBytecodeReader {
                 let mut line_info = Vec::new();
                 let mut last_offset = Wrapping(0_u8);
 
-                // what the shit is going on here???? why is it wrapping??
                 for _ in 0..size_code {
                     last_offset += Self::read_u8(reader)?;
                     line_info.push(last_offset.0);
